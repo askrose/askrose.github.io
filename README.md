@@ -20,3 +20,13 @@ Once installed, run the following:
     gem install japr
     gem install closure-compiler
     gem install wdm
+
+To run the HTTP server:
+
+    :::ruby
+    jekyll serve
+
+For faster iterative development on the local machine:
+
+    :::ruby
+    jekyll serve --watch

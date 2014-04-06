@@ -15,6 +15,7 @@
         {% javascript_asset_tag global %}
         - /_assets/bootstrap.js
         {% endjavascript_asset_tag %}
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
 
     </head>
@@ -22,12 +23,9 @@
       <div class="container">
         {% include header.html %}
         {% include navbar.html %}
-
-      <div class="row">
-        <div class="col-md-12">{{ content }}</div>
-      </div>
-      {% include subfooter.html %}
-      {% include footer.html %}
+        <div class="content">{{ content }}</div>
+        {% include subfooter.html %}
+        {% include footer.html %}
       </div>
 
 

@@ -1,17 +1,49 @@
 body {
     text-align: left;
     background-color:#004274;
+    font-family:"Lato";
 }
 
 .container {
-    background-color: #EDF3D6;
+    /*background-color: #EDF3D6;*/
+    background: linear-gradient(to bottom,  #98C542, #EDF3D6, #98C542);
+    background: -webkit-linear-gradient(to bottom, #98C542, #EDF3D6, #98C542);
+    background: -moz-linear-gradient(to bottom, #98C542, #EDF3D6, #98C542);
     padding: 0px;
+    border-radius: 15px;
+}
+
+.content {
+    background-color: #FFF;
 }
 
 .header {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.navbar-default {
+    background-image:none;
+    background-color: #004271;
+    margin-bottom: 0px;
+}
+
+.top-nav a:hover,
+.top-nav a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a {
+    color:#edf3d6;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    background-color: #dff3d6;
+    color: #004271;
 }
 
 .navbar-nav {
@@ -29,8 +61,6 @@ body {
     padding: 20px;
     width: 100%;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .carousel-caption {
@@ -50,8 +80,44 @@ body {
         margin-bottom: 10px;
     }
 
+    .content{
+        padding: 20px;
+    }
+
 }
 
+@media screen and (max-width: 768px) {
+.navbar-default {
+    background-color: #004274;
+    color:#EDF3D6;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#EDF3D6;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    background-color: #004274;
+    color: #EDF3D6;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus
+{
+    color: #a9daff;
+}
+
+    .content{
+        padding: 20px;
+        margin-top:0px;
+        margin-bottom:-3px;
+    }
+
+}
 
 .reach-out img {
     float: right;

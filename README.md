@@ -18,5 +18,5 @@ Once installed, run the following:
     gem update
     gem install jekyll
     gem install japr
-    gem install clojure-compiler
+    gem install closure-compiler
     gem install wdm

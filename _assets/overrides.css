@@ -5,12 +5,8 @@ body {
 }
 
 .container {
-    /*background-color: #EDF3D6;*/
-    background: linear-gradient(to right,  #98C542, #EDF3D6, #98C542);
-    background: -webkit-linear-gradient(to right, #98C542, #EDF3D6, #98C542);
-    background: -moz-linear-gradient(to right, #98C542, #EDF3D6, #98C542);
+    background-color: #EDF3D6;
     padding: 0px;
-    border-radius: 15px;
 }
 
 .content {
@@ -44,7 +40,7 @@ body {
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
-.navbar-default .navbar-nav>.open>a:focus{
+.navbar-default .navbar-nav>.open>a:focus {
     background-color: #dff3d6;
     color: #004271;
 }
@@ -54,6 +50,10 @@ body {
 }
 
 .dropdown-menu {
+    width: 100%;
+}
+
+.header img {
     width: 100%;
 }
 
@@ -79,8 +79,8 @@ body {
     }
 
     .header {
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .content{
@@ -90,18 +90,6 @@ body {
     .reach-out {
         padding: 25px;
     }
-
-    .grid-bg{
-        background-image: url('/img/grid.jpg');
-        opacity: 0.33;
-        width: 99%;
-        margin-left: 6px;
-        margin-top: -30px;
-        margin-bottom: -160px;
-        border-radius: 15px 15px 0 0;
-        height: 183px;
-    }
-
 }
 
 @media screen and (max-width: 768px) {

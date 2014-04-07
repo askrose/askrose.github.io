@@ -4,7 +4,7 @@ body {
     font-family:"Lato";
 }
 
-.container {
+.main-container {
     background-color: #EDF3D6;
     padding: 0px;
 }
@@ -57,9 +57,14 @@ body {
     width: 100%;
 }
 
+.footer-container {
+    background-color: #004274;
+    margin-bottom: 20px;
+}
+
 .footer {
     margin-top 20px;
-    background-color: #004274;
+
     color: #FFF;
     padding: 20px;
     width: 100%;
